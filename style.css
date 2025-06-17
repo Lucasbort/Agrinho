@@ -1,6 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 img{
     width: 300px;
     border-radius: 10px;
+    display: flex;
 }
 
 header {
@@ -10,7 +16,10 @@ header {
   align-items: center;
   background-color: rgb(94, 234, 94);
   padding: 20px 20px;
+  margin: 0%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 nav {
   width: 300px;
   display: flex;
@@ -18,7 +27,97 @@ nav {
 }
 
 a{
-    color: rgb(65, 68, 70);
+    color: black;
     font-size: 30px;
     text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.151);
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.009);
+}
+
+a:hover{
+  background-color: rgba(0, 0, 0, 0.205);
+  border-color: rgba(0, 0, 0, 0.051);
+}
+
+h3{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.texto1{
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 450px;
+  background-color: rgb(218, 250, 215);
+  border-style: solid;
+  border-color: rgb(206, 236, 205);
+  border-radius: 10px;
+  padding: 10px;
+
+  display: flex;
+}
+
+
+
+.texto1 img{
+  width: 200px;
+}
+
+.texto2{
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 450px;
+  background-color: rgb(249, 250, 215);
+  border-style: solid;
+  border-color: rgb(233, 236, 205);
+  border-radius: 10px;
+  padding: 10px;
+
+  display: flex;
+}
+
+.texto2 img{
+  width: 200px;
+}
+
+.texto3{
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 450px;
+  background-color: rgb(215, 243, 250);
+  border-style: solid;
+  border-color: rgb(205, 232, 236);
+  border-radius: 10px;
+  padding: 10px;
+
+  display: flex;
+}
+
+.texto3 img{
+  width: 200px;
+}
+
+.pg1{
+    background-color: rgb(25, 60, 88);
+    background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p1/8161962-background-farm-field-grain-plantation-cartoon-vetor.jpg");
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+
+.pg2{
+    background-color: rgb(25, 60, 88);
+    background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p1/8161962-background-farm-field-grain-plantation-cartoon-vetor.jpg");
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+
+.pg3{
+    background-color: rgb(25, 60, 88);
+    background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p1/8161962-background-farm-field-grain-plantation-cartoon-vetor.jpg");
+    background-repeat: no-repeat;
+    background-size: 110%;
 }
